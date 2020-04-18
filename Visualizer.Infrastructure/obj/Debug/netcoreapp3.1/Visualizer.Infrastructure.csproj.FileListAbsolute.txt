@@ -1,0 +1,12 @@
+C:\repos\Albums\Albums\Visualizer.Infrastructure\bin\Debug\netcoreapp3.1\Visualizer.Core.dll
+C:\repos\Albums\Albums\Visualizer.Infrastructure\obj\Debug\netcoreapp3.1\Visualizer.Infrastructure.csprojAssemblyReference.cache
+C:\repos\Albums\Albums\Visualizer.Infrastructure\obj\Debug\netcoreapp3.1\Visualizer.Infrastructure.AssemblyInfoInputs.cache
+C:\repos\Albums\Albums\Visualizer.Infrastructure\obj\Debug\netcoreapp3.1\Visualizer.Infrastructure.AssemblyInfo.cs
+C:\repos\Albums\Albums\Visualizer.Infrastructure\bin\Debug\netcoreapp3.1\Visualizer.Infrastructure.deps.json
+C:\repos\Albums\Albums\Visualizer.Infrastructure\bin\Debug\netcoreapp3.1\Visualizer.Infrastructure.dll
+C:\repos\Albums\Albums\Visualizer.Infrastructure\bin\Debug\netcoreapp3.1\Visualizer.Infrastructure.pdb
+C:\repos\Albums\Albums\Visualizer.Infrastructure\bin\Debug\netcoreapp3.1\Visualizer.Core.pdb
+C:\repos\Albums\Albums\Visualizer.Infrastructure\obj\Debug\netcoreapp3.1\Visualizer.Infrastructure.csproj.CoreCompileInputs.cache
+C:\repos\Albums\Albums\Visualizer.Infrastructure\obj\Debug\netcoreapp3.1\Visualizer.Infrastructure.csproj.CopyComplete
+C:\repos\Albums\Albums\Visualizer.Infrastructure\obj\Debug\netcoreapp3.1\Visualizer.Infrastructure.dll
+C:\repos\Albums\Albums\Visualizer.Infrastructure\obj\Debug\netcoreapp3.1\Visualizer.Infrastructure.pdb

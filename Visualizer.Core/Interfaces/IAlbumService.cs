@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 using Visualizer.Core.Entities;
 
 namespace Visualizer.Core.Interfaces {
-    public interface IAlbumService : IGenericService<AlbumEntity> {
-        IQueryable<AlbumEntity> GetAlbumsByUserId(short userId);
+    public interface IAlbumsService : IGenericService<AlbumEntity> {
+        IEnumerable<AlbumEntity> GetAlbumsByUserId(int userId);
     }
 }

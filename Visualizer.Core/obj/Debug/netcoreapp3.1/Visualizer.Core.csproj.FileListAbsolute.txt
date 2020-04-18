@@ -1,0 +1,9 @@
+C:\repos\Albums\Albums\Visualizer.Core\bin\Debug\netcoreapp3.1\Visualizer.Core.deps.json
+C:\repos\Albums\Albums\Visualizer.Core\bin\Debug\netcoreapp3.1\Visualizer.Core.dll
+C:\repos\Albums\Albums\Visualizer.Core\bin\Debug\netcoreapp3.1\Visualizer.Core.pdb
+C:\repos\Albums\Albums\Visualizer.Core\obj\Debug\netcoreapp3.1\Visualizer.Core.csprojAssemblyReference.cache
+C:\repos\Albums\Albums\Visualizer.Core\obj\Debug\netcoreapp3.1\Visualizer.Core.csproj.CoreCompileInputs.cache
+C:\repos\Albums\Albums\Visualizer.Core\obj\Debug\netcoreapp3.1\Visualizer.Core.AssemblyInfoInputs.cache
+C:\repos\Albums\Albums\Visualizer.Core\obj\Debug\netcoreapp3.1\Visualizer.Core.AssemblyInfo.cs
+C:\repos\Albums\Albums\Visualizer.Core\obj\Debug\netcoreapp3.1\Visualizer.Core.dll
+C:\repos\Albums\Albums\Visualizer.Core\obj\Debug\netcoreapp3.1\Visualizer.Core.pdb

@@ -4,14 +4,14 @@
     "C:\\repos\\Albums\\Albums\\Visualizer.Infrastructure\\Visualizer.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\repos\\Albums\\Albums\\Visualizer.Infrastructure\\Visualizer.Infrastructure.csproj": {
+    "C:\\repos\\Albums\\Albums\\Visualizer.Core\\Visualizer.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\repos\\Albums\\Albums\\Visualizer.Infrastructure\\Visualizer.Infrastructure.csproj",
-        "projectName": "Visualizer.Infrastructure",
-        "projectPath": "C:\\repos\\Albums\\Albums\\Visualizer.Infrastructure\\Visualizer.Infrastructure.csproj",
+        "projectUniqueName": "C:\\repos\\Albums\\Albums\\Visualizer.Core\\Visualizer.Core.csproj",
+        "projectName": "Visualizer.Core",
+        "projectPath": "C:\\repos\\Albums\\Albums\\Visualizer.Core\\Visualizer.Core.csproj",
         "packagesPath": "C:\\Users\\saluc\\.nuget\\packages\\",
-        "outputPath": "C:\\repos\\Albums\\Albums\\Visualizer.Infrastructure\\obj\\",
+        "outputPath": "C:\\repos\\Albums\\Albums\\Visualizer.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -42,6 +42,85 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\repos\\Albums\\Albums\\Visualizer.Infrastructure\\Visualizer.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\repos\\Albums\\Albums\\Visualizer.Infrastructure\\Visualizer.Infrastructure.csproj",
+        "projectName": "Visualizer.Infrastructure",
+        "projectPath": "C:\\repos\\Albums\\Albums\\Visualizer.Infrastructure\\Visualizer.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\saluc\\.nuget\\packages\\",
+        "outputPath": "C:\\repos\\Albums\\Albums\\Visualizer.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\saluc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\repos\\Albums\\Albums\\Visualizer.Core\\Visualizer.Core.csproj": {
+                "projectPath": "C:\\repos\\Albums\\Albums\\Visualizer.Core\\Visualizer.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

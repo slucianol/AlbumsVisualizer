@@ -1,0 +1,47 @@
+﻿@model IEnumerable<Visualizer.Web.Models.PhotoModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.PhotoId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ThumbnailUrl)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model) {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PhotoId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+                <td>
+                    <a href="@Html.ValueFor(modelItem => item.Url)"><img src="@Html.ValueFor(modelItem => item.ThumbnailUrl)" /></a>
+                </td>
+                <td>
+                    @Html.ActionLink("Ver comentarios", "Photos", "GetCommentsByPostID", new { postId = item.PhotoId }, new {
+                   onclick = $"GetComments({item.PhotoId});"
+               });
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
